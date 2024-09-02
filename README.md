@@ -12,7 +12,6 @@ This project involves building a big data pipeline to source, process, and visua
 - [Step 2: Apache Spark ETL](#step-2-apache-spark-etl)
 - [Step 3: Tableau Visualization](#step-3-tableau-visualization)
 - [References](#references)
-- [License](#license)
 
 # Installation and Usage
 
@@ -77,7 +76,8 @@ To use the provided data for this project, follow these steps:
 
 # Architecture:
 
-![architecture](img/architecture.png)
+<img width="828" alt="architecture" src="https://github.com/user-attachments/assets/405bbac3-e472-4418-82d4-a5897df8357d">
+
 
 # Step 1: Data Sourcing and Kafka Streaming
 
@@ -166,7 +166,7 @@ These PySpark scripts showcase the versatility and power of Apache Spark in proc
 
 Through Tableau's interactive features, analytics, and dashboards, our "Sales and Customer Insights" project provides actionable intelligence for informed strategies.
 
-![dashboard](img/dashboard.png)
+<img width="682" alt="dashboard (1)" src="https://github.com/user-attachments/assets/0487a932-22f0-48cb-b52b-c353ee651def">
 
 # **References**
 
@@ -174,11 +174,3 @@ Through Tableau's interactive features, analytics, and dashboards, our "Sales an
 - Kafka Visualization Guide: [https://softwaremill.com/kafka-visualisation/](https://softwaremill.com/kafka-visualisation/)
 - Apache Spark: [https://spark.apache.org/](https://spark.apache.org/)
 - Tableau: [https://www.tableau.com/](https://www.tableau.com/)
-
-## License
-
-**Data Processing and Storage Pipeline for E-Commerce Behavior Data** is licensed under the **MIT License**. See the [LICENSE](https://github.com/Pradyothsp/bd-pipeline/blob/main/LICENSE) file for details.
-
-The MIT License is a permissive open-source license that grants permissions to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software. It includes a disclaimer of liability and requires that the original copyright notice and the license text must be included in all copies or substantial portions of the software.
-
-You can find more information about the MIT License [here](https://opensource.org/license/mit/).
