@@ -13,14 +13,6 @@ This project involves building a big data pipeline to source, process, and visua
 - [Step 3: Tableau Visualization](#step-3-tableau-visualization)
 - [References](#references)
 
-# Installation and Usage
-
-To clone this project, run the following command in your terminal:
-
-```bash
-git clone git@github.com:Pradyothsp/bd-pipeline.git
-cd bd-pipeline
-```
 
 ### Creating Virtual Environment
 
