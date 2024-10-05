@@ -1,0 +1,21 @@
+version: '3'
+
+volumes:
+  local_postgres_data: { }
+  local_postgres_data_backups: { }
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: bd_pipeline_postgres
+    volumes:
+      - local_postgres_data:/var/lib/postgresql/data:Z
+      - local_postgres_data_backups:/backups:z
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_DB=ecom_behaviour
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"

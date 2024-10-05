@@ -1,0 +1,6 @@
+pyspark
+confluent-kafka
+pyarrow
+pyyaml
+matplotlib
+pandas
