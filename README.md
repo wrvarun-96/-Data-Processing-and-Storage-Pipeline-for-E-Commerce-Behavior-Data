@@ -12,7 +12,7 @@ This project involves building a big data pipeline to source, process, and visua
 - [Step 2: Apache Spark ETL](#step-2-apache-spark-etl)
 - [Step 3: Tableau Visualization](#step-3-tableau-visualization)
 - [References](#references)
-- 
+  
 # Installation and Usage
 
 To clone this project, run the following command in your terminal:
@@ -77,9 +77,6 @@ To use the provided data for this project, follow these steps:
 # Architecture:
 
 <img width="828" alt="architecture" src="https://github.com/user-attachments/assets/405bbac3-e472-4418-82d4-a5897df8357d">
-
-![architecture](img/architecture.png)
-
 
 # Step 1: Data Sourcing and Kafka Streaming
 
@@ -167,8 +164,6 @@ These PySpark scripts showcase the versatility and power of Apache Spark in proc
 4. Visualize detailed product-level analysis for optimized inventory.
 
 Through Tableau's interactive features, analytics, and dashboards, our "Sales and Customer Insights" project provides actionable intelligence for informed strategies.
-
-<img width="682" alt="dashboard (1)" src="https://github.com/user-attachments/assets/0487a932-22f0-48cb-b52b-c353ee651def">
 
 ![dashboard](img/dashboard.png)
 
